@@ -1,0 +1,51 @@
+.UpdateMedicine {
+    margin: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgba(48, 35, 120, 0.7);
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  
+  input[type="text"] {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dfdce6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    color: #333333;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #0077cc;
+  }
+  
+  input[type="submit"] {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #005ea6;
+  }
